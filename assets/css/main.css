@@ -2392,11 +2392,30 @@
 			padding-left: 0;
 		}
 
-			ul.major-icons li {
+		/*	ul.major-icons li {
 				display: inline-block;
 				padding: 2.5em;
 				text-align: center;
 			}
+		*/
+
+			ul.major-icons li {
+				display: inline-block;
+				padding: 2.5em;
+				text-align: center;
+				opacity: 0.5;
+				/*background-color: rgba(0, 0, 0, 0.3);
+				galeria*/
+			}
+
+			ul.major-icons li:hover {
+				display: inline-block;
+				padding: 2.5em;
+				text-align: center;
+				opacity: 1;
+
+			}
+
 
 				ul.major-icons li .icon {
 					-moz-transform: rotate(45deg);
@@ -2412,6 +2431,10 @@
 					text-align: center;
 					width: 8em;
 				}
+
+					ul.major-icons li .icon:hover {
+							cursor: pointer;
+					}
 
 					ul.major-icons li .icon:before {
 						-moz-transform: rotate(-45deg);
@@ -2708,10 +2731,10 @@
 
 		.main.style2 {
 			background-color: #333;
-			color: #000;
+			color: #fff;
 			background-attachment: fixed,							fixed;
 			/*background-image: url("images/overlay1.png"), url("../../images/header.jpg");*/
-			background-image: url("../../images/Lago.png");
+			background-image: url("../../images/Dmac.png");
 			background-size: auto,							cover;
 		}
 
@@ -2724,7 +2747,7 @@
 				}
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #F5853F;
+				color: #00afc6;
 				font-weight: bolder;
 			}
 
@@ -2789,20 +2812,27 @@
 					}
 
 			.main.style2 ul.major-icons li .icon {
-				border-color: #F5853F;
+				border-color: #00afc6;
 				border-width: 3px;
 			}
 			.tpa{
-				color: #F5853F;
+				color: #00afc6;
 			}
 
 			.main.style2 .icon.major {
 				color: #ffffff;
 			}
+			.main.style2 .icon.major a {
+				text-decoration: none;
+
+
+			}
 
 			.fraseM{
 				font-size: 18pt;
 				font-weight: bold;
+				color: #a3adb5;
+				opacity: 0.7;
 			}
 
 /* Header */
@@ -2813,7 +2843,7 @@
 		color: rgba(0, 0, 0, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
-		background-image: url("../../images/Montaña2.png");
+		background-image: url("../../images/MontañaS.png");
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3001,7 +3031,7 @@
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 /*		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);*/
-		background-image: url("../../images/Montaña2.png");
+		background-image: url("../../images/MontañaS.png");
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
