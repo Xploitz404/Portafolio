@@ -2021,7 +2021,6 @@
 
 	input[type="text"],
 	input[type="password"],
-	input[type="email"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2815,6 +2814,9 @@
 				border-color: #00afc6;
 				border-width: 3px;
 			}
+
+			/*WDM*/
+
 			.tpa{
 				color: #00afc6;
 			}
@@ -2824,8 +2826,6 @@
 			}
 			.main.style2 .icon.major a {
 				text-decoration: none;
-
-
 			}
 
 			.fraseM{
@@ -2833,6 +2833,32 @@
 				font-weight: bold;
 				color: #a3adb5;
 				opacity: 0.7;
+			}
+
+/* Modificando el input email para el newsletter */
+			input[type="email"]{
+				margin: auto;
+				margin-bottom: 15px;
+				-moz-appearance: none;
+				-webkit-appearance: none;
+				-ms-appearance: none;
+				-webkit-transition: width 2s;
+				appearance: none;
+				background: rgba(144, 144, 144, 0.075);
+				border-radius: 4px;
+				border: none;
+				border: solid 1px #00afc6;
+				color: inherit;
+				display: block;
+				outline: 0;
+				padding: 0 1em;
+				text-decoration: none;
+				width: 45%;
+			}
+
+			input[type="email"]:focus{
+				width: 65%;
+				border: dotted 2px #00afc6;
 			}
 
 /* Header */
