@@ -44,27 +44,33 @@ function op1(){
 }
 */
 
-//Cambiando la descripción del div según el ícono clickeado
+//Cambiando la descripción y el título del div según el ícono clickeado:
     function mostrar1(){
-      document.getElementById('Desc').innerHTML="<strong>Desarrollo</strong><br><p>Hola, soy programador </p> <br> <p> Manejo muchìsimos lenguajes de programaciòn</p>";
+      document.getElementById('Desc').innerHTML="<p>Hola, soy programador</p>";
+      document.getElementById('Ttl').innerHTML="Desarrollo";
     }
 
     function mostrar2(){
       document.getElementById('Desc').innerHTML='Diseño';
+      document.getElementById('Ttl').innerHTML="Diseño";
     }
 
     function mostrar3(){
       document.getElementById('Desc').innerHTML='Marketing';
+      document.getElementById('Ttl').innerHTML="Marketing";
     }
 
     function mostrar4(){
-      document.getElementById('Desc').innerHTML='Oratoria';
+      document.getElementById('Desc').innerHTML='Gestión de Proyectos';
+      document.getElementById('Ttl').innerHTML="Gestión de Proyectos";
     }
 
     function mostrar5(){
       document.getElementById('Desc').innerHTML='Liderazgo';
+      document.getElementById('Ttl').innerHTML="Liderazgo";
     }
 
     function mostrar6(){
-      document.getElementById('Desc').innerHTML='Project Manager';
+      document.getElementById('Desc').innerHTML='Hablar en público';
+      document.getElementById('Ttl').innerHTML="Hablar en público";
     }

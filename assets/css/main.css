@@ -2838,7 +2838,7 @@
 /* Modificando el input email para el newsletter */
 			input[type="email"]{
 				margin: auto;
-				margin-bottom: 15px;
+				margin-bottom: 10px;
 				-moz-appearance: none;
 				-webkit-appearance: none;
 				-ms-appearance: none;
